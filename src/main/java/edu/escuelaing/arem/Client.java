@@ -25,7 +25,7 @@ public class Client {
 	 */
 
     public static void main(String[] args) throws Exception {
-        URL heroku = new URL("https://desolate-beyond-92495.herokuapp.com/resp?realNumber=45%2C45%2C4%2C4%2C4%2C5%2C5%2C4%2C5%2C5");
+        URL heroku = new URL("https://desolate-beyond-92495.herokuapp.com/resp?realNumber=1+2+3+4+5+6+6");
         try (BufferedReader reader
                 = new BufferedReader(new InputStreamReader(heroku.openStream()))) {
             String inputLine = null;
