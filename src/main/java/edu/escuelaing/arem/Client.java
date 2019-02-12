@@ -13,9 +13,19 @@ import java.io.*;
 import java.net.*;
 
 public class Client {
+	
+	
+	/**
+	 * Para probar directamente desde la aplicacion en Heroku usar la URL
+	 * 
+	 * https://desolate-beyond-92495.herokuapp.com/index
+	 * 
+	 * @param args
+	 * @throws Exception
+	 */
 
     public static void main(String[] args) throws Exception {
-        URL heroku = new URL("http://localhost:4567/resp?realNumber=1%2C2%2C3");
+        URL heroku = new URL("https://desolate-beyond-92495.herokuapp.com/resp?realNumber=45%2C45%2C4%2C4%2C4%2C5%2C5%2C4%2C5%2C5");
         try (BufferedReader reader
                 = new BufferedReader(new InputStreamReader(heroku.openStream()))) {
             String inputLine = null;

@@ -17,7 +17,7 @@ public class SparkWebApp {
                 + "    </head>"
                 + "    <body>"
                 + "        <h2>Estadísticos</h2>"
-                + "        <p>La siguiente aplicación web calcula el máximo, mínimo, sumatoria y multiplicatoria de un conjunto de números reales.<br /> Éstos se podrán ingresar en el siguiente campo, separándolos por “ , “ e.g., 21,3,5,9,...</p>"
+                + "        <p>La siguiente aplicación web calcula el máximo, mínimo, sumatoria y multiplicatoria de un conjunto de números reales.<br /> Éstos se podrán ingresar en el siguiente campo, separándolos por un espacio</p>"
                 + "        <form action=/resp>"
                 + "            Conjunto de números:<br>"
                 + "            <input type=text name=realNumber value= ><br><br>"
